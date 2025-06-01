@@ -1,5 +1,4 @@
-module github.com/yourusername/vpn-server
-
+module github.com/shakboss/Go-server/blob/main
 go 1.21
 
 require (
