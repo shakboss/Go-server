@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/yourusername/vpn-server/crypto"
-	"github.com/yourusername/vpn-server/packet"
-	"github.com/yourusername/vpn-server/session"
-	"github.com/yourusername/vpn-server/tun"
+	"github.com/shakboss/Go-server/blob/main/crypto"
+	"github.com/shakboss/Go-server/blob/main/packet"
+	"github.com/shakboss/Go-server/blob/main/session"
+	"github.com/shakboss/Go-server/blob/main/tun"
 )
 
 type UDPHandler struct {
