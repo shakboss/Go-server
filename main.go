@@ -10,14 +10,14 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/yourusername/vpn-server/config"
-	"github.com/yourusername/vpn-server/crypto"
-	"github.com/yourusername/vpn-server/ippool"
-	"github.com/yourusername/vpn-server/session"
-	"github.com/yourusername/vpn-server/sshauth"
-	"github.com/yourusername/vpn-server/tun"
-	"github.com/yourusername/vpn-server/tunhandler"
-	"github.com/yourusername/vpn-server/udphandler"
+	"github.com/shakboss/Go-server/blob/main/config"
+	"github.com/shakboss/Go-server/blob/main/crypto"
+	"github.com/shakboss/Go-server/blob/main/ippool"
+	"github.com/shakboss/Go-server/blob/main/session"
+	"github.com/shakboss/Go-server/blob/main/sshauth"
+	"github.com/shakboss/Go-server/blob/main/tun"
+	"github.com/shakboss/Go-server/blob/main/tunhandler"
+	"github.com/shakboss/Go-server/blob/main/udphandler"
 )
 
 var (
