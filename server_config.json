@@ -1,0 +1,16 @@
+{
+    "listen_udp_port": 8888,
+    "listen_tcp_auth_port": 8887,
+    "tun_device_name": "stun0",
+    "tun_server_ip": "10.8.0.1",
+    "tun_netmask": "255.255.255.0",
+    "client_ip_pool_start": "10.8.0.100",
+    "client_ip_pool_end": "10.8.0.150",
+    "authorized_keys_dir": "./authorized_keys",
+    "ssh_host_key_path": "./id_rsa_host",
+    "master_key_hex": "YOUR_SECURELY_GENERATED_MASTER_KEY_HEX_STRING_HERE",
+    "session_timeout_seconds": 300,
+    "client_dns_servers": ["8.8.8.8", "8.8.4.4"],
+    "client_routes": ["0.0.0.0/0"],
+    "log_level": "info"
+}
