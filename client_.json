@@ -1,0 +1,18 @@
+{
+    "server_address": "190.83.222.248",
+    "server_port": 8888,
+    "tun_interface_name_pref": "ctun0",
+    "tun_client_ip_cidr_placeholder": "10.8.0.X/24",
+    "local_routes_via_vpn": ["0.0.0.0/0"],
+    "rotating_auth_keys_hex": [
+        "5d7688dfc653e52d4b1c4623b23e119b12bb8d38739cd5717676087fa4239dfb",
+        "dfa0a0ce82b0ed7192431ca2d0dab4c61886ce0350426accfbd2e11adc983f57",
+        "8789457d7c6e72a8bd35b2112a239521c084b3e243b4f143b1284b2d6bbcd596"
+    ],
+    "username": "testuser",
+    "password": "testpassword",
+    "log_level": "INFO",
+    "server_auth_key_initial_index_guess": 0,
+    "auth_retry_delay_seconds": 5,
+    "max_auth_retries_per_key_cycle": 3
+}
