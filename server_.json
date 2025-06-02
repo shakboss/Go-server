@@ -1,0 +1,23 @@
+{
+    "server_listen_address": "0.0.0.0",
+    "server_port": 8888,
+    "tun_interface_name": "stun0",
+    "tun_interface_ip": "10.8.0.1/24",
+    "virtual_ip_range_start": "10.8.0.2",
+    "virtual_ip_range_end": "10.8.0.254",
+    "rotating_auth_keys_hex": [
+        "5d7688dfc653e52d4b1c4623b23e119b12bb8d38739cd5717676087fa4239dfb",
+        "dfa0a0ce82b0ed7192431ca2d0dab4c61886ce0350426accfbd2e11adc983f57",
+        "8789457d7c6e72a8bd35b2112a239521c084b3e243b4f143b1284b2d6bbcd596"
+    ],
+    "user_credentials": {
+        "testuser": "32dea240ac18d7b41932586ba4b35faf:a438040c3e081681c14cfeacbb31f2c1617802fa5b040f78adcd463384720ef6"
+    },
+    "log_level": "INFO",
+    "session_timeout_minutes": 30,
+    "max_auth_fails": 5,
+    "auth_fail_block_minutes": 10,
+    "auth_fail_reset_minutes": 60,
+    "max_client_sessions": 50,
+    "public_network_interface": "enp0s3"
+}
